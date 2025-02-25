@@ -10,12 +10,15 @@ class Notes {
 		//create an array with a size of 5
 
 		numArray = new int[5]; //fills the array with default values
+		{0, 0, 0, 0, 0}
 
 		//prebuilt array - filled with values
 
 		numArray = new int[]{1, 3, 5};
+		{1,3,5}
 
 		int[] numArray2 = {1, 3, 5}; //new int[] can only be omitted when declaring on the same line as assignment
+	{1,3,5}
 
 		//re-assigning a value in an array
 		numArray[0] = 5;
